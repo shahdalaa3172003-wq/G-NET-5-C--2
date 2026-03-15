@@ -83,6 +83,19 @@ internal class Program
 
         //}
         #endregion
-        
-    }
+        #region Q6
+        // What is variable lifetime ? Explain the lifetime of local variables
+        //    vs static variables.
+        // Local Variables: Born when the method starts and die when the method ends.
+        //void SayHi()
+        //{
+        //    string msg = "Hello"; 
+        //    Console.WriteLine(msg);
+        //} 
+          //Static Variables: Born when the program starts and stay alive until the program closes.
+    //      public class Tracker
+    //{
+    //    public static int TotalCount = 0; 
+    #endregion
+}
 }
