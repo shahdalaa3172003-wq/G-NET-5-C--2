@@ -44,3 +44,12 @@ internal class Program
 //var message = "Hello";
 
 #endregion
+region Q3
+  //  Write the syntax for declaring a constant in C#. Why would you use 
+  //    a constant instead of a regular variable?
+  // Standard syntax: const [type] [name] = [value];
+  //const double Pi = 3.14159;
+  //const string Greeting = "Hello, World!";
+  //const int MaxPlayers = 10;
+  //Use const for values that never change to prevent bugs, improve readability, and boost performance.
+#endregion
