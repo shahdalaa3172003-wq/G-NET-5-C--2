@@ -222,11 +222,13 @@ internal class Program
 // p2.Name = "Bob"; 
 // Console.WriteLine($"p1: {p1.Name}, p2: {p2.Name}"); 
             #endregion
-          
-       
-
-
-
+           #region Q19
+          // In C#, System.Object is the root of the entire type hierarchy to ensure a unified type system, 
+          // allowing any variable to be treated as an object. Because of this inheritance, every type automatically gains four core methods: ToString() 
+          // (for text representation),
+          // Equals() (for comparison), GetHashCode() (for ID indexing), and GetType() (for runtime type checking).
+            #endregion
+    
     }
 
 }
