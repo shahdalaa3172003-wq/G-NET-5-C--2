@@ -172,7 +172,36 @@ internal class Program
            //  and InvalidCastException occurs during a failed type conversion. Each of these ensures the program fails predictably rather than continuing with 
            //  corrupted data.
           
-         #endregion
+          #endregion
+           #region Q15
+//           The order of catch blocks is critical because C# processes them from top to 
+//           bottom and executes the first one that matches the thrown exception. Since exception classes use inheritance, a more general 
+//           exception (like the base Exception class) will "catch" everything, potentially preventing more specific handlers from ever running.
+
+// The Rule: Specific to General
+// You must always place specific exceptions (the "children") before general exceptions (the "parents"). 
+// If you put catch (Exception ex) at the top, the compiler will actually throw an error because the subsequent, more specific blocks become "unreachable."
+
+// try
+// {
+//     int[] numbers = { 1, 2, 3 };
+//     int result = numbers[10] / 0; 
+// }
+// catch (DivideByZeroException ex)
+// {
+//     Console.WriteLine("Math error: Cannot divide by zero.");
+// }
+
+// catch (IndexOutOfRangeException ex)
+// {
+//     Console.WriteLine("Array error: Index was out of bounds.");
+// }
+
+// catch (Exception ex)
+// {
+//     Console.WriteLine("An unexpected error occurred: " + ex.Message);
+// }
+            #endregion
           
        
 
