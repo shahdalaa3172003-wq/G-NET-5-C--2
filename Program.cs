@@ -140,12 +140,31 @@ internal class Program
         //perfectly without crashing, but produces the wrong output because of 
         //    a flaw in the developer's math or reasoning (e.g., using + instead of *).
         #endregion
-           #region Q12
- //Exception handling is vital in C# because it allows a program to gracefully 
- //recover from unexpected errors (like a missing file or lost internet) instead of crashing. Without it, any unhandled
- //error triggers a fatal crash, immediately terminating the application and providing a poor user experience—or
- //worse, leaving data in a corrupted, half-saved state.
- #endregion
+         #region Q12
+         //Exception handling is vital in C# because it allows a program to gracefully 
+         //recover from unexpected errors (like a missing file or lost internet) instead of crashing. Without it, any unhandled
+         //error triggers a fatal crash, immediately terminating the application and providing a poor user experience—or
+         //worse, leaving data in a corrupted, half-saved state.
+         #endregion
+         #region Q13
+          //           The try-catch-finally block is the standard way to handle "dangerous" code that might cause a crash.
+          //             try
+          // {
+          //     int numerator = 10;
+          //     int denominator = 0;
+          //     int result = numerator / denominator; 
+          //     Console.WriteLine("Result: " + result);
+          // }
+          // catch (DivideByZeroException ex)
+          // {
+          //     Console.WriteLine("Error: You cannot divide by zero! " + ex.Message);
+          // }
+          // finally
+          // {
+          //     Console.WriteLine("Cleanup: Closing connections or finishing the process.");
+          // }
+                    
+         #endregion
        
 
 
