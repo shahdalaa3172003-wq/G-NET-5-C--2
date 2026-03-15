@@ -140,6 +140,12 @@ internal class Program
         //perfectly without crashing, but produces the wrong output because of 
         //    a flaw in the developer's math or reasoning (e.g., using + instead of *).
         #endregion
+           #region Q12
+ //Exception handling is vital in C# because it allows a program to gracefully 
+ //recover from unexpected errors (like a missing file or lost internet) instead of crashing. Without it, any unhandled
+ //error triggers a fatal crash, immediately terminating the application and providing a poor user experience—or
+ //worse, leaving data in a corrupted, half-saved state.
+ #endregion
        
 
 
