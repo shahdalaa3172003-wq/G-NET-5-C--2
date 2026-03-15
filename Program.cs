@@ -202,6 +202,11 @@ internal class Program
 //     Console.WriteLine("An unexpected error occurred: " + ex.Message);
 // }
             #endregion
+           #region Q16
+          // In C#, throw is the best practice because it preserves the entire stack trace, showing you 
+          // the original source of the error. In contrast, throw ex resets the stack trace to the current line, wiping out the history of where 
+          // the exception actually started and making debugging much harder.
+           #endregion
           
        
 
