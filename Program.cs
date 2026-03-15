@@ -112,5 +112,18 @@ internal class Program
         //C# strictly forbids declaring a variable in a nested block (like an if or for) if that name is already used in the same method.
         //This is a safety feature to prevent confusion.
         #endregion
+        #region Q9
+        //  List five rules that must be followed when naming variables in C#.
+
+    //    Must Start with a Letter or Underscore: A variable name cannot start with a number. It must begin with an uppercase/ lowercase letter or an underscore _.
+
+    //   No Spaces Allowed: Variables must be a single continuous string of characters.For multiple words, use PascalCase or camelCase.
+
+    //  No Reserved Keywords: You cannot use words that C# already uses for its own logic, such as int, class, static, or void (unless you prefix them with @, like @class).
+
+    // Case Sensitivity: C# is case-sensitive. myValue and MyValue are treated as two completely different variables in memory.
+
+    //Only Alphanumeric and Underscore: You cannot use special symbols like @, #, $, or % anywhere in the name (except for the underscore).
+    }      #endregion
     }
-}
+    
