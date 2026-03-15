@@ -133,7 +133,15 @@ internal class Program
         //Microsoft's standard for Constants is also PascalCase (e.g., MaxRetryCount) to ensure 
         //they are easily readable and consistent with public properties.
         #endregion
-        
+        #region Q11
+        //Syntax errors occur during coding when "grammar" rules are broken(e.g., a missing semicolon), 
+        //preventing the program from even starting. Runtime errors happen while the program is executing, causing a sudden 
+        //crash due to illegal operations(e.g., dividing by zero). Logical errors are the most deceptive; the program runs 
+        //perfectly without crashing, but produces the wrong output because of 
+        //    a flaw in the developer's math or reasoning (e.g., using + instead of *).
+        #endregion
+       
+
 
 
     }
