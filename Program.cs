@@ -165,6 +165,15 @@ internal class Program
           // }
                     
          #endregion
+          #region Q14
+           // In C#, NullReferenceException occurs when accessing a member of a null object,
+           // while IndexOutOfRangeException happens when accessing an array index that doesn't exist.
+           //  DivideByZeroException is triggered by illegal math operations, FileNotFoundException arises when a specified disk file is missing, 
+           //  and InvalidCastException occurs during a failed type conversion. Each of these ensures the program fails predictably rather than continuing with 
+           //  corrupted data.
+          
+         #endregion
+          
        
 
 
