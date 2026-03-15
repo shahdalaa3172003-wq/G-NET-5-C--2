@@ -21,3 +21,26 @@ internal class Program
         #endregion
     }
 }
+#region Q2
+
+//What is the difference between explicit and implicit variable
+//    declaration in C#? Provide examples of both.
+//an
+//1. Explicit Declaration
+
+//You manually specify the exact data type.
+//Syntax: int age = 25;
+
+//2. Implicit Declaration
+
+//You use the var keyword, and the compiler infers the type based on the value.
+
+//Syntax: var age = 25;
+
+// Explicit
+//string message = "Hello";
+
+// Implicit
+//var message = "Hello";
+
+#endregion
