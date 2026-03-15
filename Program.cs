@@ -103,5 +103,14 @@ internal class Program
         //The Garbage Collector(GC) is an automatic memory manager in C#.
         //    It identifies and deletes objects that are no longer being used by your program to free up RAM.
         #endregion
+        #region Q8
+        // Q: What is variable shadowing in C#? Does C# allow shadowing in 
+        //    nested blocks within the same method?
+        //Shadowing occurs when a variable declared in a local scope(like a method) has the same name as a variable in a higher scope(like a class field).
+        //The local variable "hides" or "shadows" the class-level one.
+        //No.Unlike some other languages (like C++ or Java),
+        //C# strictly forbids declaring a variable in a nested block (like an if or for) if that name is already used in the same method.
+        //This is a safety feature to prevent confusion.
+        #endregion
     }
 }
