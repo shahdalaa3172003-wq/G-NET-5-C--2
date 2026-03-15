@@ -92,10 +92,16 @@ internal class Program
         //    string msg = "Hello"; 
         //    Console.WriteLine(msg);
         //} 
-          //Static Variables: Born when the program starts and stay alive until the program closes.
-    //      public class Tracker
-    //{
-    //    public static int TotalCount = 0; 
-    #endregion
-}
+        //Static Variables: Born when the program starts and stay alive until the program closes.
+        //      public class Tracker
+        //{
+        //    public static int TotalCount = 0; 
+        #endregion
+        #region Q7
+        // Q: What is the Garbage Collector in C#? How does it affect the 
+        //    lifetime of objects?
+        //The Garbage Collector(GC) is an automatic memory manager in C#.
+        //    It identifies and deletes objects that are no longer being used by your program to free up RAM.
+        #endregion
+    }
 }
