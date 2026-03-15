@@ -54,20 +54,35 @@ internal class Program
         #region Q4
         // Explain the difference between class-level scope and method-level
         //    scope with examples.
-        Class - level variables are accessible to the entire class, 
-    while method-level variables exist only inside the specific method where they are declared.
-        public class Calculator
-    {
-        public void CalculateTotal()
-        {
-            int taxAmount = 5;
-            Console.WriteLine(taxAmount);
-        }
+        //    Class - level variables are accessible to the entire class, 
+        //while method-level variables exist only inside the specific method where they are declared.
+        //    public class Calculator
+        //{
+        //    public void CalculateTotal()
+        //    {
+        //        int taxAmount = 5;
+        //        Console.WriteLine(taxAmount);
+        //    }
 
-        public void ShowTax()
-        {
-        }
+        //    public void ShowTax()
+        //    {
+        //    }
+        //}
+        #endregion
+        #region Q5
+        // Q: What is block-level scope? Give an example showing a variable that 
+        //    is only accessible within a specific block.
+        //A block-level variable is restricted to the specific set of braces { } where it was created.
+        //public void ProcessData(int value)
+        //{
+        //    if (value > 10)
+        //    {
+        //        string message = "Value is high!";
+        //        Console.WriteLine(message);
+        //    }
+
+        //}
+        #endregion
+        
     }
-    #endregion
-}
 }
