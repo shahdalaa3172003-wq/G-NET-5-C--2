@@ -115,15 +115,28 @@ internal class Program
         #region Q9
         //  List five rules that must be followed when naming variables in C#.
 
-    //    Must Start with a Letter or Underscore: A variable name cannot start with a number. It must begin with an uppercase/ lowercase letter or an underscore _.
+        //    Must Start with a Letter or Underscore: A variable name cannot start with a number. It must begin with an uppercase/ lowercase letter or an underscore _.
 
-    //   No Spaces Allowed: Variables must be a single continuous string of characters.For multiple words, use PascalCase or camelCase.
+        //   No Spaces Allowed: Variables must be a single continuous string of characters.For multiple words, use PascalCase or camelCase.
 
-    //  No Reserved Keywords: You cannot use words that C# already uses for its own logic, such as int, class, static, or void (unless you prefix them with @, like @class).
+        //  No Reserved Keywords: You cannot use words that C# already uses for its own logic, such as int, class, static, or void (unless you prefix them with @, like @class).
 
-    // Case Sensitivity: C# is case-sensitive. myValue and MyValue are treated as two completely different variables in memory.
+        // Case Sensitivity: C# is case-sensitive. myValue and MyValue are treated as two completely different variables in memory.
 
-    //Only Alphanumeric and Underscore: You cannot use special symbols like @, #, $, or % anywhere in the name (except for the underscore).
-    }      #endregion
+        //Only Alphanumeric and Underscore: You cannot use special symbols like @, #, $, or % anywhere in the name (except for the underscore).
+        #endregion
+        #region Q10
+        // Q: What naming conventions are recommended for: (a) local variables, 
+        //    (b) class names, (c) constants?
+        //For local variables, use camelCase(e.g., itemCount) to keep them distinct from class members. 
+        //Class names must use PascalCase(e.g., UserManager) for clear structural hierarchy.While some legacy code uses UPPER_CASE, 
+        //Microsoft's standard for Constants is also PascalCase (e.g., MaxRetryCount) to ensure 
+        //they are easily readable and consistent with public properties.
+        #endregion
+        
+
+
     }
+
+}
     
