@@ -212,6 +212,16 @@ internal class Program
           // removed when a method ends. The Heap is a larger, 
           // slower area that stores Reference Types (like class objects and string); data remains there until it is cleaned up by the Garbage Collector.
           #endregion
+           #region Q18
+// int x = 10;
+// int y = x; 
+// y = 20;     
+// Console.WriteLine($"x: {x}, y: {y}");
+// Player p1 = new Player { Name = "Alice" };
+// Player p2 = p1; 
+// p2.Name = "Bob"; 
+// Console.WriteLine($"p1: {p1.Name}, p2: {p2.Name}"); 
+            #endregion
           
        
 
