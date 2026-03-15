@@ -207,6 +207,11 @@ internal class Program
           // the original source of the error. In contrast, throw ex resets the stack trace to the current line, wiping out the history of where 
           // the exception actually started and making debugging much harder.
            #endregion
+            #region Q17
+          // In C#, the Stack is a small, high-speed memory area that stores Value Types (like int, bool) and pointers; data is automatically 
+          // removed when a method ends. The Heap is a larger, 
+          // slower area that stores Reference Types (like class objects and string); data remains there until it is cleaned up by the Garbage Collector.
+          #endregion
           
        
 
